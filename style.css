@@ -1,0 +1,1409 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.hero {
+  font-family: "Times New Roman", Times, serif !important;
+
+}
+
+.hero h1 {
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 600 !important;
+}
+
+.hero p {
+  font-size: 22px;
+  line-height: 26px;
+  color: black !important;
+}
+
+.hero .btn {
+  background-color: #0a8080;
+  color: white !important;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hero .btn:hover {
+  background-color: rgb(9, 93, 93) !important;
+  color: white !important;
+}
+
+.hero .two {
+  background-color: white;
+  border: 3px solid #0a8080 !important;
+  color: #0a8080 !important;
+}
+
+.hero .two:hover {
+  background-color: white !important;
+  border: 3px solid rgb(9, 93, 93) !important;
+  color: rgb(9, 93, 93) !important;
+}
+.image {
+  background-image: url("./images/background-combined-1440-afe73a551ee3eb4d3e31efe6099f43005df0052ca8fc6aa91203870b2d66227a.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 630px;
+}
+
+.examp-pic {
+  z-index: 100;
+  position: relative;
+  bottom: -40px;
+}
+
+.marquee ul {
+  list-style: none;
+}
+
+.boundary {
+  border: 1px solid #2babad !important;
+  background-color: white;
+  text-align: center;
+  height: 110px;
+  width: 470px;
+  border-radius: 30px;
+}
+
+.text {
+  font-size: 14px !important;
+  color: #222525 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.text:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  width: 150px;
+}
+.small-size .logo img {
+  width: 70px;
+}
+
+.small-size {
+  width: 300px;
+}
+.star {
+  height: 100%;
+  width: 100px;
+}
+#trustradius .star {
+  width: 85px;
+}
+
+#forbesadvisor .logo img {
+  width: 80px;
+}
+#fastcompany .logo img {
+  width: 120px;
+}
+
+#G2 .logo img {
+  width: 60px;
+  height: 60px;
+}
+#forbesbig .logo img {
+  width: 100px;
+}
+
+#Getapp .logo img {
+  width: 120px;
+}
+
+#Getapp .star {
+  width: 80px;
+}
+#G-small .logo img {
+  width: 55px;
+  height: 55px;
+}
+
+#buyers-choice .logo img {
+  width: 60px;
+  height: 60px;
+}
+.bg-color {
+  background-color: rgb(224, 242, 245) !important;
+}
+
+.content h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 2.9rem;
+}
+
+.link a {
+  color: #525257;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Acoordion .accordion{
+  font-family: 'Times New Roman', Times, serif !important;
+}
+.Acoordion .accordion-item{
+  border: none !important;
+  box-shadow: none !important;
+}
+.Acoordion .accordion-item h2{
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.Acoordion .accordion-item button{
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Acoordion .accordion-body{
+  font-size: 1.2rem;
+  line-height: 27px;
+  margin-top: 8px;
+}
+
+
+.Acoordion .accordion-item button:hover{
+  color:rgb(10, 128, 128) !important
+}
+
+.Acoordion .product-link a{
+  font-size: 1.2rem;
+  background-color: rgb(248, 245, 242);
+}
+
+.Acoordion .product-link a:hover{
+  color:rgb(9, 93, 93) !important;
+  border: 3px solid rgb(10, 128, 128) !important;
+  background-color:  rgb(248, 245, 242); 
+}
+
+
+.Acoordion .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%230a8080' class='bi bi-chevron-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E") !important; 
+}
+
+.Acoordion .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%230a8080' class='bi bi-chevron-up' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z'/%3E%3C/svg%3E") !important; 
+}
+
+.jumbotron{
+background-color: rgb(251, 250, 250);
+}
+
+.jumbotron strong{
+  color: #f45d48;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600 !important;
+  line-height: 24px;
+  text-align: center;
+}
+ 
+.jumbotron q{
+  color:rgb(34, 37, 37);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: center;
+}
+
+.img-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color:rgb(82, 82, 87);
+  font-weight: 300;
+  height: 50px;
+}
+
+.jumbotron a{
+  color:rgb(10, 128, 128);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.jumbotron a:hover{
+  color:rgb(14, 169, 169) !important; 
+}
+
+.benefits h1{
+  font-family: 3.2rem !important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  
+}
+
+.benefits p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem !important;
+  font-weight: 300;
+  line-height: 24px;
+}
+.benefits a{
+  color:rgb(10, 128, 128);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+ .benefits a:hover{
+  color:rgb(14, 169, 169) !important; 
+ }
+
+ .item{
+  width: 160px !important;
+ }
+ 
+.item-text {
+ line-height: 19px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(10, 128, 128);
+}
+
+.features h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  font-weight: 600 !important;
+}
+
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+.card-body span{
+color:rgb(244, 93, 72);
+display: block;
+font-size: 18px;
+font-family:Arial, Helvetica, sans-serif;
+line-height: 24px;
+}
+
+.card-body h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+   color:rgb(34, 37, 37);
+   font-size: 30px !important;
+}
+
+.card-text{
+  color:rgb(82, 82, 87);
+  display: block;
+  font-size: 18px;
+  font-weight: 400 !important;
+  line-height: 24px
+}
+.pricing{
+  background-color: rgb(248, 245, 242);
+
+}
+
+.pricing h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  line-height: 39px;
+}
+
+.pricing a{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px !important;
+  background: linear-gradient(to left, #f45d48 50%, #ef523c 50%);
+  background-size: 200% 100%;
+  background-position: right bottom !important;
+  transition: all 200ms ease-in-out;
+ 
+}
+.pricing a:hover {
+  background-position: left bottom !important;
+}
+
+.payroll{
+  background-color:  rgb(0, 89, 97);
+}
+
+.payroll h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  font-size: 42px !important;
+  font-weight: 500 !important;
+  line-height: 48px;
+  color:white
+}
+
+.payroll a{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.payroll h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: 500;
+  color:white;
+  line-height: 30px;
+}
+.payroll p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight:400;
+line-height: 26px;
+color:white
+}
+
+.payroll span{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bor-der {
+  border-right: 0.8px solid white;
+}
+
+.automated-payroll h1{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 600;
+font-size: 2.5rem;
+}
+
+.automated-payroll .initial{
+  color:rgb(244, 93, 72);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+
+.automated-payroll strong {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+font-weight: 600
+}
+
+.automated-payroll p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+}
+
+.automated-payroll a{
+  background-color:rgb(244, 93, 72); 
+  color:white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.three-item-grid h3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.three-item-grid h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.three-item-grid p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.three-item-grid p a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(10, 128, 128)
+}
+.three-item-grid .bor-der{
+  border-right: 0.8px solid rgb(220, 220, 220) ;
+}
+
+footer{
+  background-color: white;
+}
+.main-footer h5 strong{
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(34, 37, 37);
+  line-height: 24px; 
+}
+
+.main-footer p{
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(82, 82, 87);
+  line-height: 33px;
+  font-weight: 600;
+}
+
+.main-footer .green{
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(10, 128, 128);
+  font-weight: 600 !important;
+}
+
+.sub-footer hr{
+  border: 1px solid rgb(98, 98, 98);
+}
+
+.sub-footer p{
+  color:  rgb(34, 37, 37);
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.blog strong{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  line-height: 24px;
+  color:rgb(10, 128, 128);
+  font-weight: 600;
+}
+.blog p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color:rgb(108, 108, 114);
+  line-height: 21px;
+}
+
+.blog-menu p{
+ color: rgb(82, 82, 87);
+ font-size: 1rem;
+ font-weight: 600;
+ font-family: Arial, Helvetica, sans-serif;
+ line-height: 20px; 
+}
+
+.deskstop-display a{
+  color:rgb(108, 108, 114);
+  font-size: 1rem;
+  text-decoration: none;
+  line-height: 15px;
+}
+
+.deskstop-display p{
+  color:rgb(34, 37, 37);
+  font-size: 1rem;
+  text-decoration: none;
+  line-height: 15px;
+  font-weight: 300;
+}
+
+ .deskstop-display svg {
+  fill: #79797f !important;
+}
+
+footer .accordion-item{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.mob-acc .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%230a8080' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
+}
+
+.mob-acc .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%230a8080' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
+}
+
+ .accordion-button:not(.collapsed) {
+  color:rgb(34, 37, 37) !important
+}
+
+.mob-acc button strong{
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.mob-acc h5 strong{
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.mob-acc h5 strong:hover {
+  color: rgb(10, 128, 128) !important;
+}
+
+.mob-acc .accordion-body p{
+  color: rgb(10, 128, 128);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mobile-footer p{
+  color:rgb(34, 37, 37);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.mobile-footer a{
+  color:rgb(108, 108, 114);
+  font-weight: 600;
+  font-size: 16px;
+}
+.floating-discovery-masg{
+  background-color:  rgb(248, 245, 242);
+}
+.floating-discovery-masg a{
+  color: rgb(10, 128, 128);
+}
+.shadow{
+  box-shadow: 0 0 8px rgba(217, 212, 212, 0.1);
+}
+
+.btn-one {
+ width:180px !important;
+height: 50px !important;
+background-color: #0a8080 !important; 
+border:2px solid rgb(255, 255, 255);
+margin-left: 5px !important;
+text-align: center; 
+color:white !important;
+font-weight: 600 !important;
+font-size: 17px !important;
+text-decoration: none !important;
+}
+
+
+.btn-one:hover{
+  text-decoration: underline !important;
+  background-color:  #035c5c  !important;
+}
+
+.btn-two{
+color: #0a8080!important;
+font-weight: 600 !important;
+font-size: 17px !important;
+text-decoration: none !important;
+border:2px solid #0a8080 !important;
+width:140px !important;
+height: 50px; 
+margin-left: 5px !important;
+}
+
+.btn-two:hover{
+  text-decoration: underline !important;
+  border: 2px solid  #035c5c !important;
+  color: #035c5c !important
+}
+
+  .see-demo .nav-link{
+    color:rgb(10, 128, 128) !important;
+    text-decoration: underline;
+    text-decoration-thickness: 1px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+  }
+
+  .sign-in{
+    color:rgb(10, 128, 128);
+    font-weight: 600 !important;
+    margin-left: 5px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+  .sign-in:hover{
+    color:#035c5c !important 
+  }
+
+  
+ .nav-link:focus{
+  box-shadow: inset 0 0 2px #525257 !important;
+  border:2px solid rgb(10, 128, 128) !important;
+  border-radius:  10px !important; 
+ }
+  
+ .btn-one:focus {
+  box-shadow: inset 0 0 2px #525257 !important;
+  border:3px solid white !important;
+  outline:2px solid rgb(10, 128, 128) !important;
+ }
+
+.btn-two:focus{
+  box-shadow: inset 0 0 2px #525257 !important;
+  outline:2px solid rgb(10, 128, 128) !important;
+}
+
+.sign-in:focus{
+  box-shadow: inset 0 0 2px #525257 !important;
+  border:2px solid rgb(10, 128, 128) !important;
+  border-radius:  7px !important;  
+}
+
+.see-demo:focus{
+  box-shadow: inset 0 0 2px #525257 !important;
+  outline:2px solid rgb(10, 128, 128) !important;
+  border-radius: 5px;
+}
+
+.nav-link{
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color:rgb(34, 37, 37) !important
+}
+
+.dropdown-menu-large{
+  width: 100%;
+  max-width: 760px;
+  min-width: 760px !important;
+}
+
+.dropdown-menu-medium{
+  width:100%;
+  max-width:600px;
+  min-width: 600px !important;
+}
+
+.dropdown-menu-large label{
+ color: rgb(93, 93, 93);
+ font-weight: 600;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ line-height: 21px;
+}
+
+.dropdown-menu-large strong{
+  color:rgb(10, 128, 128) ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.dropdown-menu-medium strong{
+color:rgb(10, 128, 128) ;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 21px;
+
+}
+
+.dropdown-menu-large p{
+  color: rgb(34, 37, 37);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.dropdown-menu-medium p{
+  color: rgb(34, 37, 37);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.offcanvas.offcanvas-end {
+  max-width: 100%;
+  min-width: 100%;
+width:100%
+}
+
+.left-button{
+  position: absolute;
+  right:5%;
+  background: transparent;
+}
+
+.offcanvas-header .navbar-brand img{
+  height: 35px !important;
+}
+
+.sidebar .accordion-item{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.sidebar .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%230a8080' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
+}
+
+.sidebar  .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%230a8080' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
+}
+
+
+ .sidebar .accordion-item a{
+  color: #222525;
+  display: block;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+ }
+
+ .sidebar .accordion-item button{
+  color: #222525;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+ }
+
+.sidebar .accordion-body label{
+  text-transform: uppercase !important;
+  color:rgb(34, 37, 37);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.sidebar .accordion-body strong{
+  color: rgb(10, 128, 128);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  line-height: 21px;
+}
+
+.sidebar .accordion-body p{
+  color:rgb(34, 37, 37) ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400 !important;
+  line-height: 21px;
+}
+
+.sidebar .accordion-body a{
+  color: rgb(10, 128, 128);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  line-height: 30px;
+}
+
+
+  @media screen and (max-width: 576px) {
+  .image {
+    background-image: url("./images/background-combined-393-5f9297902a2c1d9aa46c223d48aee1f80ccf634684eaef054b2197f5bda1b368\ \(2\).png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+  }
+
+  .examp-pic {
+    z-index: 100;
+    position: relative;
+    bottom: -20px;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .boundary {
+    height: 200px;
+    width: 300px;
+  }
+
+  .text {
+    font-size: 18px !important;
+  }
+
+  .logo img {
+    width: 180px;
+  }
+
+  .star {
+    width: 100px;
+  }
+
+  #Getapp .star {
+    width: 100px;
+  }
+
+  .small-size .logo img {
+    width: 80px;
+    height: 100%;
+  }
+
+  .small-size {
+    height: 200px;
+    width: 300px;
+  }
+
+  #forbesadvisor .logo img {
+    width: 120px;
+  }
+
+  #fastcompany .logo img {
+    width: 180px;
+  }
+
+  #forbesbig .logo img {
+    width: 100px;
+  }
+
+  #Getapp .logo img {
+    width: 200px;
+  }
+
+  #G2 .text {
+    font-size: 14px !important;
+  }
+  #G-small .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  #buyers-choice .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  #CNBC .logo img {
+    width: 80px;
+  }
+
+  .accordion-item{
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .accordion-item h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  
+  .accordion-item button{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .accordion-body{
+    font-size: 1.2rem;
+    line-height: 27px;
+    margin-top: 8px;
+  }
+  
+  .product-link a{
+    font-size: 1.2rem;
+    background-color: rgb(248, 245, 242);
+  }
+  
+  .jumbotron img{
+    border-top:0!important ;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+
+  }
+
+  .jumbotron .img-text{
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+  }
+
+  .item{
+    width:140px !important
+   }
+   .bor-der {
+    border-bottom: 0.8px solid white;
+    border-right: none;
+  }
+  .payroll h3{
+    font-size: 35px !important;
+  }
+
+  .automated-payroll h1{
+    font-size: 1.8rem;
+    }
+
+  .three-item-grid .bor-der{
+    border-bottom: 0.8px solid  rgb(220, 220, 220) ;
+    border-right: none;
+}
+
+.three-item-grid p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.three-item-grid p a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgb(10, 128, 128)
+}
+ 
+.offcanvas-header .navbar-brand img{
+  height: 30px !important;
+}
+
+
+ .sidebar .accordion-item a{
+  font-size: 25px;
+  line-height: 30px;
+ }
+
+ .sidebar .accordion-item button{
+  font-size: 25px;
+  line-height: 30px;
+ }
+
+.sidebar .accordion-body label{
+  font-size: 14px;
+}
+
+.sidebar .accordion-body strong{
+  font-size: 14px;
+
+}
+.sidebar .accordion-body p{
+  font-size: 14px;
+}
+
+.sidebar .accordion-body a{
+  font-size: 14px;
+}
+
+.content h3 {
+  font-size: 2rem;
+}
+
+.Acoordion .accordion-item h2{
+  font-size: 2.2rem;
+}
+
+.Acoordion .accordion-body{
+  font-size: 1rem;
+  line-height: 27px;
+  margin-top: 8px;
+}
+  }
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .image {
+    background-image: url("./images/background-combined-768-8d0b894b8d4d3ceaa5987cec9e7fa47bc885a884339b065adde3700e57abb750.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+  }
+
+  .examp-pic {
+    z-index: 100;
+    position: relative;
+    bottom: -20px;
+  }
+
+  .boundary {
+    height: 200px;
+    width: 300px;
+  }
+
+  .text {
+    font-size: 17px !important;
+  }
+
+  .logo img {
+    width: 180px;
+    height: 100%;
+  }
+
+  .star {
+    width: 100px;
+  }
+
+  #trustradius .star {
+    width: 100px;
+  }
+
+  .small-size .logo img {
+    width: 80px;
+    height: 100%;
+  }
+
+  .small-size {
+    height: 200px;
+    width: 300px;
+  }
+
+  #forbesadvisor .logo img {
+    width: 120px;
+  }
+
+  #fastcompany .logo img {
+    width: 180px;
+  }
+  #G2 .logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #G2 .text {
+    font-size: 14px !important;
+  }
+
+  #forbesbig .logo img {
+    width: 90px;
+  }
+
+  #Getapp .logo img {
+    width: 150px;
+  }
+
+  #Getapp .star {
+    width: 100px;
+  }
+
+  #G-small .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  #buyers-choice .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  #CNBC .logo img {
+    width: 80px;
+  }
+  .item{
+    width:160px !important
+  }
+  .bor-der {
+    border-bottom: 0.8px solid white;
+    border-right: none;
+  }
+  .payroll h3{
+    font-size: 35px !important;
+  }
+  .automated-payroll h1{
+    font-size: 2rem;
+  }
+
+
+  .three-item-grid .bor-der{
+     border-bottom: 0.8px solid  rgb(220, 220, 220) ;
+    border-right: none;
+  }
+
+  .sidebar .accordion-item a{
+    font-size: 28px;
+    line-height: 30px;
+   }
+  
+   .sidebar .accordion-item button{
+    font-size: 28px;
+    line-height: 30px;
+   }
+
+   .content h3 {
+    font-size: 2.4rem;
+  }
+
+  .Acoordion .accordion-item h2{
+    font-size: 2.3rem;
+   
+  }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .image {
+    background-image: url("./images/background-combined-768-8d0b894b8d4d3ceaa5987cec9e7fa47bc885a884339b065adde3700e57abb750.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+  }
+
+  .examp-pic {
+    z-index: 100;
+    position: relative;
+    bottom: -25px;
+  }
+
+  .boundary {
+    height: 140px;
+    width: 530px;
+  }
+  .small-size {
+    height: 140px;
+    width: 350px;
+  }
+
+  .text {
+    font-size: 16px !important;
+  }
+
+  .logo img {
+    width: 180px;
+    height: 100%;
+  }
+
+  .star {
+    width: 120px;
+  }
+
+  #trustradius .star {
+    width: 120px;
+  }
+  .small-size .logo img {
+    width: 70px;
+    height: 100%;
+  }
+
+  #forbesadvisor .logo img {
+    width: 100px;
+  }
+
+  #fastcompany .logo img {
+    width: 190px;
+  }
+
+  #G2 .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  #forbesbig .logo img {
+    width: 120px;
+  }
+  #Getapp .logo img {
+    width: 140px;
+  }
+
+  #Getapp .star {
+    width: 120px;
+  }
+  #G-small .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  #buyers-choice .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  #CNBC .logo img {
+    width: 80px;
+  }
+
+  .item{
+    width:180px !important
+  }
+  .bor-der {
+    border-bottom: 0.8px solid white;
+    border-right: none;
+  }
+  .payroll h3{
+    font-size: 35px !important;
+  }
+  .three-item-grid .bor-der{
+    border-bottom: 0.8px solid  rgb(220, 220, 220) ;
+    border-right: none;
+}
+
+.sidebar .accordion-item a{
+  font-size: 30px;
+ 
+ }
+
+ .sidebar .accordion-item button{
+ font-size: 30px;
+ }
+
+ .content h3 {
+  font-size: 2.5rem;
+}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .image {
+    background-image: url("./images/background-combined-1440-afe73a551ee3eb4d3e31efe6099f43005df0052ca8fc6aa91203870b2d66227a.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+  }
+
+  .examp-pic {
+    z-index: 100;
+    position: relative;
+    bottom: -50px;
+  }
+
+  .boundary {
+    height: 140px;
+    width: 530px;
+  }
+  .small-size {
+    height: 140px;
+    width: 350px;
+  }
+
+  .text {
+    font-size: 16px !important;
+  }
+
+  .logo img {
+    width: 180px;
+    height: 100%;
+  }
+
+  .star {
+    width: 120px;
+  }
+
+  #trustradius .star {
+    width: 120px;
+  }
+  .small-size .logo img {
+    width: 70px;
+    height: 100%;
+  }
+
+  #forbesadvisor .logo img {
+    width: 100px;
+  }
+
+  #fastcompany .logo img {
+    width: 120px;
+  }
+
+  #fastcompany .logo img {
+    width: 190px;
+  }
+
+  #G2 .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  #forbesbig .logo img {
+    width: 120px;
+  }
+
+  #Getapp .logo img {
+    width: 140px;
+  }
+
+  #Getapp .star {
+    width: 120px;
+  }
+  #G-small .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  #buyers-choice .logo img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .accordion-item h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  .item{
+  width:180px !important;
+  }
+  .bor-der {
+    border-right: 0.8px solid white;
+    border-bottom: none
+  }
+  .three-item-grid .bor-der{
+    border-right: 0.8px solid  rgb(220, 220, 220) ;
+    border-bottom: none;
+}
+
+.offcanvas-header .navbar-brand img{
+  height: 40px !important;
+}
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .image {
+    background-image: url("./images/background-combined-1440-afe73a551ee3eb4d3e31efe6099f43005df0052ca8fc6aa91203870b2d66227a.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 550px;
+  }
+
+  .examp-pic {
+    z-index: 100;
+    position: relative;
+    bottom: -40px;
+  }
+  
+  
+}
+

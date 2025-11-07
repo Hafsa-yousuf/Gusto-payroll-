@@ -1,0 +1,2712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-xl fixed-top pt-3" aria-label="Offcanvas navbar large">
+        <div class="container-lg  px-3  px-lg-1">
+            <a class="navbar-brand ps-2" href="#"><img src="./images/gusto.svg" height="36px" alt="Gusto-logo"></a>
+
+            <div class="d-flex  mt-lg-0 gap-3 align-items-center justify-content-center d-xl-none">
+                <div class="see-demo p-1 d-none d-lg-flex " tabindex="1">
+                    <a class=" nav-link">
+                        <strong class="d-lg-flex justify-content-center align-items-center gap-2">
+                            <div>
+                                <img src="./images/play icon.png" width="20px" height="20px">
+                            </div>
+                            See demo
+                        </strong>
+                    </a>
+                </div>
+
+                <a class="btn-one rounded-2 py-2 d-none d-sm-block" href="#">
+                    Create free account
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            </div>
+            <div class="offcanvas offcanvas-end bg-white text-bg-dark " tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header px-md-5">
+                    <a class="navbar-brand me-5" href="./index.html"><img src="./images/gusto.svg" alt="Gusto-logo"></a>
+                    <div class="left-button">
+                        <a class="btn-one rounded-2 py-2 px-2  ms-5 me-md-2" href="#">
+                            Create free account
+                        </a>
+                        <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                        </button>
+                    </div>
+                </div>
+                <div class="offcanvas-body d-none d-xl-flex">
+                    <ul class="navbar-nav align-items-center me-5 me-xxl-1">
+                        <li class="nav-item">
+                            <a class="nav-link py-4 ps-3" aria-current="page" href="#">Why Gusto</a>
+                        </li>
+
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-bs-toggle py-4 ps-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span> Products</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill=" rgb(108, 108, 114)" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </a>
+
+                            <ul class="dropdown-menu pb-0 rounded-3">
+                                <div class=" dropdown-menu-large ">
+                                    <div class="px-3 py-2">
+                                        <div class="d-flex">
+                                            <label class="col-4 px-2">PRODUCT</label>
+                                            <label class="col-4 px-3">FEATURES</label>
+                                        </div>
+                                        <div class="row pt-4 ">
+                                            <div class="col-4 px-3">
+                                                <div class="mb-2 h-75 ">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Payroll</strong>
+                                                        <p>Automated deductions, direct
+                                                            deposit and tax filing</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4 ps-3 pe-4">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Time and attendance</strong>
+                                                        <p>Time tracking and
+                                                            time-off requests</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4 px-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Workers’ comp</strong>
+                                                        <p>Protect you and your team if an injury or illness happens
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4 px-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Employee benefits</strong>
+                                                        <p>Health benefits, automatic savings, 401(k)s, and more</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4 px-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Hiring and onboarding</strong>
+                                                        <p>Offer letters, checklists, software setup, and more</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4 px-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Integrations</strong>
+                                                        <p>Connect Gusto with your favorite tools and software</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4 px-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>HR</strong>
+                                                        <p>Hiring, onboarding, talent management, and compliance</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4 px-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Talent management</strong>
+                                                        <p>Performance reviews and development</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4 px-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Compare</strong>
+                                                        <p>Learn how Gusto stacks up against other payroll providers
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4 px-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Gusto Global</strong>
+                                                        <p>Pay global contractors and hire international employees
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-4 pe-4 ps-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Insights and reporting</strong>
+                                                        <p>Data-backed guidance and reports</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-4 px-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>FAQs</strong>
+                                                        <p>Get answers to common questions about products and
+                                                            features</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-bs-toggle py-4 ps-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span> Solutions</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(108, 108, 114)"
+                                    class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu pb-0 rounded-3">
+                                <div class=" dropdown-menu-large w-100">
+                                    <div class="px-3 py-2">
+                                        <div class="d-flex">
+                                            <label class="col-4 ps-3">BUSINESS SIZE</label>
+                                            <label class="col-4 ps-4">BUSINESS TYPE</label>
+                                            <label class="col-4 ps-4">BY INDUSTRY</label>
+                                        </div>
+
+                                        <div class="d-flex pt-4">
+                                            <div class="solution col-8 row ps-3">
+                                                <div class="col-6">
+                                                    <div class="mb-2 h-75">
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>One employee</strong>
+                                                            <p>
+                                                                Pay yourself and manage your finances with Gusto
+                                                                payroll</p>
+                                                        </a>
+                                                    </div>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                </div>
+
+                                                <div class="col-6 ps-4">
+                                                    <div class="mb-2 h-75">
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>New businesses and startups</strong>
+                                                            <p>
+                                                                Simple, automated payroll for your new business
+                                                                venture</p>
+                                                        </a>
+                                                    </div>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <div class="mb-2 h-75">
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>Small business</strong>
+                                                            <p>
+                                                                Software to help you pay your team, file payroll
+                                                                taxes, and more</p>
+                                                        </a>
+                                                    </div>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                </div>
+
+                                                <div class="col-6 ps-4">
+                                                    <div class="mb-2 h-75">
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>Switching providers</strong>
+                                                            <p>
+                                                                Transfer your payroll, benefits, and HR from another
+                                                                provider</p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <div class="mb-2 h-75">
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>Mid-size businesses</strong>
+                                                            <p>All-in-one payroll, benefits and HR for scaling
+                                                                businesses</p>
+                                                        </a>
+                                                    </div>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                </div>
+
+                                                <div class="col-6 me-5">
+                                                    <div class="mb-2">
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>Contractors-only</strong>
+                                                            <p>
+                                                                Onboard and pay your contractors with ease</p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-4 industry ps-5">
+                                                <div class="col-12 pb-3">
+                                                    <div>
+                                                        <a class=" text-decoration-none" href="#">
+                                                            <strong>Real Estate</strong>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 pb-3">
+                                                    <div>
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong> Professional services</strong>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 pb-3">
+                                                    <div>
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>Healthcare</strong>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 pb-3">
+                                                    <div>
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>Dentists</strong>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 pb-3">
+                                                    <div>
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>Retail</strong>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 pb-3">
+                                                    <div>
+                                                        <a class="text-decoration-none " href="#">
+                                                            <strong>Manufacturing</strong>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 pb-3">
+                                                    <div>
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>Construction</strong>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 pb-3">
+                                                    <div>
+                                                        <a class="text-decoration-none" href="#">
+                                                            <strong>View more industries</strong>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center floating-discovery-masg shadow pt-3">
+                                    <p class="floating-discovery-masg">Discover Gusto payroll and HR
+                                        solutions.</p>
+                                    <a class="ps-1 floating-discovery-masg" href="#">Explore all
+                                        solutions →</a>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown d-none d-xxl-flex">
+                            <a class="nav-link dropdown-bs-toggle py-4" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span> Accountants</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill=" rgb(108, 108, 114)" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu pb-0 rounded-3">
+                                <div class=" dropdown-menu-medium">
+                                    <div class="p-4">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Become a
+                                                            partner</strong>
+                                                        <p> Grow your accounting or bookkeeping practice</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Partner community</strong>
+                                                        <p> Connect, share, and learn with your peers</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <div class="mb-2 h-75 ">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Gusto Pro dashboard</strong>
+                                                        <p>
+                                                            Save time with Gusto’s modern accounting dashboard
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Professional
+                                                            development</strong>
+                                                        <p>
+                                                            Uplevel your career with free training and resources</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none">
+                                                        <strong>Accountant blog</strong>
+                                                        <p>Helpful tips, tactics, and customer stories</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none">
+                                                        <strong>Resources</strong>
+                                                        <p>Research, guides, and webinars to grow your firm and
+                                                            career</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown d-none d-xxl-flex">
+                            <a class="nav-link dropdown-bs-toggle py-4 ps-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span> Resources</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill=" rgb(108, 108, 114)" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu pb-0 rounded-3">
+                                <div class=" dropdown-menu-large w-100">
+                                    <div class="px-3 py-2">
+                                        <div class="d-flex">
+                                            <label class="col-4 ">COMPANY</label>
+                                            <label class="col-4 ps-2">RESOURCES</label>
+                                            <label class="col-4 ps-3">SUPPORT</label>
+                                        </div>
+
+                                        <div class="row pt-4">
+                                            <div class="col-4">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>About
+                                                            Gusto</strong>
+                                                        <p>
+                                                            Gusto helps businesses take care of their hardworking
+                                                            teams</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none " href="#">
+                                                        <strong>Talk Shop
+                                                            blog</strong>
+                                                        <p>
+                                                            Expert articles and answers to all your questions
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+
+                                            <div class="col-4">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Help
+                                                            Center</strong>
+                                                        <p>
+                                                            Answers and step-by-step instructions for using
+                                                            Gusto</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Company
+                                                            news</strong>
+                                                        <p>
+                                                            Read the latest news and upcoming product updates
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Tools and
+                                                            calculators</strong>
+                                                        <p>
+                                                            Tax calculations and business tools</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Support — Log
+                                                            in</strong>
+                                                        <p>
+                                                            Connect with our support team through your Gusto
+                                                            account</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+
+                                            <div class="col-4">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Careers —
+                                                            We’re hiring!</strong>
+                                                        <p>
+                                                            Our team is growing, come join us on the journey</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+
+                                            <div class="col-4 me-3">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Pay
+                                                            Insights</strong>
+                                                        <p>
+                                                            Compensation insights for your business using
+                                                            Gusto's real-time payroll data</p>
+                                                    </a>
+                                                </div>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <strong>Gusto
+                                                            Embedded Payroll</strong>
+                                                        <p>
+                                                            APIs for building payroll into your platform</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-4">
+                                                <div class="mb-2 h-75">
+                                                    <a class="text-decoration-none " href="#">
+                                                        <strong>Data and
+                                                            research</strong>
+                                                        <p>
+                                                            Insights about the economy and work from our
+                                                            research team</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link py-4 ps-3" aria-current="page" href="#">Pricing</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="d-flex mt-3 mt-lg-0 gap-2 align-items-center justify-content-center ms-5 ms-xxl-1">
+                        <div class="see-demo p-1" tabindex="1">
+                            <a class=" nav-link">
+                                <strong class="d-lg-flex justify-content-center align-items-center gap-2">
+                                    <div>
+                                        <img src="./images/play icon.png" width="20px" height="20px">
+                                    </div>
+                                    See demo
+                                </strong>
+                            </a>
+                        </div>
+
+
+                        <a class="btn-one rounded-2 py-2" href="#">
+                            Create free account
+                        </a>
+
+                        <a class="btn btn-two py-2" href="#" id="shared-desktop-header-ctas-signup-how_it_works">
+                            How it works
+                        </a>
+
+                        <a class="sign-in p-2 d-none d-xl-flex" href="#">
+                            Sign in
+                        </a>
+                    </div>
+                </div>
+
+                <div class="sidebar d-xl-none mt-3 overflow-scroll me-3 ">
+                    <div class="accordion overflow-scroll" id="accordion3">
+                        <div class="accordion-item">
+                            <a class=" text-decoration-none ps-4 ps-md-5 py-4" aria-current="page">Why Gusto</a>
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-white shadow-none text-decoration-none ps-md-5 py-4 collapsed"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Products
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordion3">
+                                <div class="accordion-body ps-md-5 side-acc overflow-scroll mt-0 pt-0 ">
+
+                                    <label>PRODUCT</label>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Payroll</strong>
+                                            <p>Automated deductions, direct
+                                                deposit and tax filing</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Employee benefits</strong>
+                                            <p>Health benefits, automatic savings, 401(k)s, and more</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2 ">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>HR</strong>
+                                            <p>Hiring, onboarding, talent management, and compliance</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Gusto Global</strong>
+                                            <p>Pay global contractors and hire international employees
+                                            </p>
+                                        </a>
+                                    </div>
+
+                                    <label class="my-3">FEATURES</label>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Time and attendance</strong>
+                                            <p>Time tracking and
+                                                time-off requests</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Workers’ comp</strong>
+                                            <p>Protect you and your team if an injury or illness happens
+                                            </p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Hiring and onboarding</strong>
+                                            <p>Offer letters, checklists, software setup, and more</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2 ">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Integrations</strong>
+                                            <p>Connect Gusto with your favorite tools and software</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Talent management</strong>
+                                            <p>Performance reviews and development</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Compare</strong>
+                                            <p>Learn how Gusto stacks up against other payroll providers
+                                            </p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2 ">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Insights and reporting</strong>
+                                            <p>Data-backed guidance and reports</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>FAQs</strong>
+                                            <p>Get answers to common questions about products and
+                                                features</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item  ">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed bg-white shadow-none text-decoration-none ps-md-5 py-4"
+                                    type="
+                                        button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Solutions
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion3">
+                                <div class="accordion-body ps-md-5 side-acc overflow-scroll pt-0 mt-0 ">
+                                    <a href="#">Explore all
+                                        solutions →</a>
+
+                                    <label class="my-3">BUSINESS TYPE</label>
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>One employee</strong>
+                                            <p>
+                                                Pay yourself and manage your finances with Gusto
+                                                payroll</p>
+                                        </a>
+                                    </div>
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Small business</strong>
+                                            <p>
+                                                Software to help you pay your team, file payroll
+                                                taxes, and more</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2 ">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Mid-size businesses</strong>
+                                            <p>All-in-one payroll, benefits and HR for scaling
+                                                businesses</p>
+                                        </a>
+                                    </div>
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Contractors-only</strong>
+                                            <p>
+                                                Onboard and pay your contractors with ease</p>
+                                        </a>
+                                    </div>
+
+                                    <label class="my-3">Business type</label>
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>New businesses and startups</strong>
+                                            <p>
+                                                Simple, automated payroll for your new business
+                                                venture</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Switching providers</strong>
+                                            <p>
+                                                Transfer your payroll, benefits, and HR from another
+                                                provider</p>
+                                        </a>
+                                    </div>
+                                    <label class="my-3">BY INDUSTRY</label>
+                                    <div class="mb-2">
+                                        <a class=" text-decoration-none" href="#">
+                                            <strong>Real Estate</strong>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong> Professional services</strong>
+                                        </a>
+                                    </div>
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Healthcare</strong>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Dentists</strong>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Retail</strong>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none " href="#">
+                                            <strong>Manufacturing</strong>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Construction</strong>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>View more industries</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item  ">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed bg-white shadow-none text-decoration-none ps-md-5 py-4"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Accountants
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion3">
+                                <div class="accordion-body ps-md-5 side-acc overflow-scroll pt-0 mt-0 ">
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Become a
+                                                partner</strong>
+                                            <p> Grow your accounting or bookkeeping practice</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Partner community</strong>
+                                            <p> Connect, share, and learn with your peers</p>
+                                        </a>
+                                    </div>
+                                    <div class="mb-2 ">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Gusto Pro dashboard</strong>
+                                            <p>
+                                                Save time with Gusto’s modern accounting dashboard
+                                            </p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Professional
+                                                development</strong>
+                                            <p>
+                                                Uplevel your career with free training and resources</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none">
+                                            <strong>Accountant blog</strong>
+                                            <p>Helpful tips, tactics, and customer stories</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none">
+                                            <strong>Resources</strong>
+                                            <p>Research, guides, and webinars to grow your firm and
+                                                career</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed bg-white shadow-none text-decoration-none ps-md-5 py-4"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour"
+                                    aria-expanded="false" aria-controls="collapsefour">
+                                    Resources
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordion3">
+                                <div class="accordion-body ps-md-5 side-acc overflow-scroll pt-0 mt-0 ">
+                                    <label class="my-3">COMPANY</label>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>About
+                                                Gusto</strong>
+                                            <p>
+                                                Gusto helps businesses take care of their hardworking
+                                                teams</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Company
+                                                news</strong>
+                                            <p>
+                                                Read the latest news and upcoming product updates
+                                            </p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Careers —
+                                                We’re hiring!</strong>
+                                            <p>
+                                                Our team is growing, come join us on the journey</p>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Gusto
+                                                Embedded Payroll</strong>
+                                            <p>
+                                                APIs for building payroll into your platform</p>
+                                        </a>
+                                    </div>
+
+                                    <label class="my-3">RESOURCES</label>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Talk Shop
+                                                blog</strong>
+                                            <p>
+                                                Expert articles and answers to all your questions
+                                            </p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Tools and
+                                                calculators</strong>
+                                            <p>
+                                                Tax calculations and business tools</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Pay
+                                                Insights</strong>
+                                            <p>
+                                                Compensation insights for your business using
+                                                Gusto's real-time payroll data</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none " href="#">
+                                            <strong>Data and
+                                                research</strong>
+                                            <p>
+                                                Insights about the economy and work from our
+                                                research team</p>
+                                        </a>
+                                    </div>
+
+                                    <label class="my-3">SUPPORT</label>
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Help
+                                                Center</strong>
+                                            <p>
+                                                Answers and step-by-step instructions for using
+                                                Gusto</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <a class="text-decoration-none" href="#">
+                                            <strong>Support — Log
+                                                in</strong>
+                                            <p>
+                                                Connect with our support team through your Gusto
+                                                account</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class=" text-decoration-none ps-4 ps-md-5 py-4" aria-current="page">Pricing</a>
+                        </div>
+                    </div>
+
+
+                    <footer class="footer ps-3 me-3 pb-5">
+                        <div class="container-fluid text-center pt-3 border-top">
+                            <a class="btn-one rounded-2 py-2 d-block my-2 w-100 align" href="#">
+                                Create free account
+                            </a>
+                            <a class="btn btn-two py-2  my-2 w-100 mb-3" href="#"
+                                id="shared-desktop-header-ctas-signup-how_it_works">
+                                How it works
+                            </a>
+                            <a class="sign-in p-2 my-2" href="#">
+                                Sign in
+                            </a>
+                        </div>
+                    </footer>
+
+                </div>
+            </div>
+    </nav>
+
+    <div class="container hero mt-5">
+        <div class=" text-dark px-4  mt-5 text-center">
+            <div class="pt-5 mt-5">
+                <h1 class="display-5 mt-5 pt-4">Payroll, HR, benefits. <div class="br"> Simplified.</div>
+                </h1>
+                <div class=" mx-auto col-lg-6">
+                    <p class="mb-4">Join 400,000+ small and medium-sized businesses that take care of their people with
+                        Gusto.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-4 ">
+                        <button type="button" class="btn btn-lg  px-4 me-sm-3"> Create free account</button>
+                        <button type="button" class="btn btn-lg px-4  two">How Gusto works</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-transparent examp-pic">
+        <div class="row bg-transparent">
+            <div class="col-12 d-flex justify-content-center align-items-center bg-transparent">
+                <div class="image bg-transparent"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="bg-color pt-5 mb-4">
+        <div class="container-fluid bg-color">
+
+            <div class="row bg-dark bg-color">
+                <marquee scrollamount="10" class="text-wrap bg-color ">
+                    <div class=" col-12 marquee bg-color">
+                        <ul class="d-inline-flex gap-5 justify-content-center align-items-center bg-color pt-5">
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-4" id="techrepublic">
+                                <div>
+                                    <a class="text-decoration-none"
+                                        href="https://www.techrepublic.com/article/best-payroll-software/">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="TechRepublic partner logo" src="./images/techrepublic.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    4.6
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/techrepublic-star.png"
+                                                    alt="star-score">
+                                                <br>
+                                                <span class="body">Best overall payroll software 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center small-size p-4"
+                                id="trustradius">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="trust radius logo" src="./images/7R logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    8.5/10
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/7R-star.png"
+                                                    alt="star-score" />
+                                                <br>
+                                                <span class="body">Top rated 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center nerdwallet p-4"
+                                id="nerdwallet">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="nerdwallet partner logo" src="./images/nerdwallet logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    5.0
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/nerdwallet star.png"
+                                                    alt="star-score">
+                                                <br>
+                                                <span class="body">Best overall payroll software 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-4" id="techrepublic">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="TechRepublic partner logo" src="./images/techrepublic.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    4.6
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/techrepublic-star.png"
+                                                    alt="star-score">
+                                                <br>
+                                                <span class="body">Best overall payroll software 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center small-size p-4"
+                                id="forbesadvisor">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="forbes advisor logo" src="./images/forbes advisor logo.png">
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    5.0
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/forbes star.png"
+                                                    alt="star-score" />
+                                                <br>
+                                                <span class="body">Forbes Advisor 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-1" id="fastcompany">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="fastcompanylogo" src="./images/fastcompany logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5">
+                                                    Most Innovative Companies
+                                                </span>
+                                                <br>
+                                                <span class="body">in human resources for 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-2" id="G2">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="G2 logo" src="./images/G2 logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5">
+                                                    99 out of 100 in payroll satisfaction
+                                                </span>
+                                                <br>
+                                                <span class="body">#1 in small business core HR</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-3" id="forbesbig">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="forbes advisor logo" src="./images/forbes advisor logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    4.4
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/forbesbig star.png"
+                                                    alt="star-score">
+                                                <br>
+                                                <span class="body">Best payroll for contractor-run global companies
+                                                    2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center small-size px-2 py-4"
+                                id="Getapp">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="GetApp partnerlogo" src="./images/Getapp logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5">
+                                                    4.6
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/techrepublic-star.png"
+                                                    alt="star-score" />
+                                                <br>
+                                                <span class="body">Overall rating</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-4" id="techradar">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="Techradar partner logo" src="./images/techradar  logo.png" />
+                                            </div>
+                                            <div class="text-md-start text text-wrap">
+                                                <span class="title fw-bold fs-5 ">
+                                                    4.6
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/techrepublic-star.png"
+                                                    alt="star-score">
+                                                <br>
+                                                <span class="body">The best overall HR management solution 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-2" id="G2">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="G2 logo" src="./images/G2 logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5">
+                                                    99 out of 100 in payroll satisfaction
+                                                </span>
+                                                <br>
+                                                <span class="body">#1 in small business benefits administration</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center small-size p-4"
+                                id="trustradius">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="trust radius logo" src="./images/7R logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    8.5/10
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/7R-star.png"
+                                                    alt="star-score" />
+                                                <br>
+                                                <span class="body">Most loved 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-1" id="G2">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="G2 logo" src="./images/G2 logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5">
+                                                    100 out of 100 in payroll satisfaction
+                                                </span>
+                                                <br>
+                                                <span class="body">#1 in small business onboarding</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-3" id="business-org">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="TechRepublic partner logo"
+                                                    src="./images/business.org logo.png">
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    4.0
+                                                </span>
+                                                <img class="star-score star mb-1"
+                                                    src="./images/business.org star.png" />
+                                                <br>
+                                                <span class="body">Best payroll software for small business 2023</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-2" id="techrepublic">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="TechRepublic partner logo" src="./images/techrepublic.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5">
+                                                    4.6/5 customer rating
+                                                </span>
+                                                <br>
+                                                <span class="body">Best payroll for international contractor payments
+                                                    2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center small-size p-2"
+                                id="G-small">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="G2 partner logo" src="./images/G2 logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    9.42 out of 10
+                                                </span>
+                                                <br>
+                                                <span class="body">#1 in small business core HR</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center small-size p-2"
+                                id="buyers-choice">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="trust radius partner logo"
+                                                    src="./images/buyers choice logo.svg" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    Buyer's Choice
+                                                </span>
+                                                <br>
+                                                <span class="body">TrustRadius 2025</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-4" id="us-news">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="Us-news partner logo" src="./images/us-news logo.png">
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    4.5
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/us-news star.png" />
+                                                <br>
+                                                <span class="body">Best overall payroll software 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-1" id="G2">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="G2 logo" src="./images/G2 logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5">
+                                                    100 out of 100 in payroll satisfaction
+                                                </span>
+                                                <br>
+                                                <span class="body"> #1 in small business payroll</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-4" id="PCMAG.COM">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="pcmag.com partner logo" src="./images/pcmag logo.png">
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    4.5
+                                                </span>
+                                                <img class="star-score star mb-1" src="./images/us-news star.png" />
+
+                                                <br>
+                                                <span class="body">Outstanding, Editors Choice 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center small-size p-1"
+                                id="G-small">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="G2 partner logo" src="./images/G2 logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    4.5/5 product rating
+                                                </span>
+                                                <br>
+                                                <span class="body">Based on 2084 reviews</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-1" id="fastcompany">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="fastcompanylogo" src="./images/fastcompany logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5">
+                                                    Most Innovative Companies
+                                                </span>
+                                                <br>
+                                                <span class="body">in human resources for 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center p-4"
+                                id="softwareAdvice">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="pcmag.com partner logo"
+                                                    src="./images/software advice logo.png" />
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    4.6/5 customer rating
+                                                </span>
+                                                <br>
+                                                <span class="body">Based on 3,850 reviews</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="boundary d-flex justify-content-center align-items-center small-size p-4"
+                                id="CNBC">
+                                <div>
+                                    <a class="text-decoration-none" href="#">
+                                        <div class="d-md-flex flex-row align-items-center">
+                                            <div class="m-3 logo">
+                                                <img alt="trust radius logo" src="./images/CNBC logo.png">
+                                            </div>
+                                            <div class="text-md-start text ">
+                                                <span class="title fw-bold fs-5 ">
+                                                    Best payroll
+                                                </span>
+                                                <br>
+                                                <span class="body">For user experience 2024</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </marquee>
+            </div>
+
+            <div class="row bg-color my-5">
+                <div class=" col-12 d-flex justify-content-center align-items-center bg-color">
+                    <img class="bg-color"
+                        src="./images/star-a397cabc1950c08aa5f46c9d45f35a727d258be3ef4f0e829532b9de7b0a9336.svg"
+                        alt="star-image" width="50px" height="50px" />
+                </div>
+            </div>
+
+            <div class="row bg-color pb-4 bg-color">
+                <div class="col-12 d-flex justify-content-center align-items-center bg-color content">
+                    <h3 class="bg-color text-center"> Start the year strong with the top-rated payroll.</h3>
+                </div>
+            </div>
+
+            <div class="row bg-color pb-5 mb-5 bg-color link">
+                <div class="col-12 d-flex justify-content-center align-items-center bg-color pb-3">
+                    <a class="px-4 py-3 text-decoration-none" href="#">Learn why
+                        Gusto is #1</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="Acoordion pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="d-lg-flex justify-content-center align-items-center">
+                    <div class="Accordion media col-12 d-lg-none">
+                        <img class="d-block mx-auto img-fluid" src="./images/accordion image.png" alt="accordion media"
+                            width="400px" height="600px" loading="lazy" />
+                    </div>
+                    <div class="accordion col-lg-6" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="px-3">Run payroll in minutes with Smart technology.</h2>
+                            <hr />
+                            <h2 class="accordion-header">
+                                <button class="accordion-button text-decoration-none bg-white shadow-none" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Payroll takes just a few clicks
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+
+
+                                    <p>Plus, we automatically file your taxes, help with compliance,
+                                        and identify tax credits to help save you money you may
+                                        never have known you qualified for.</p>
+
+                                    <p class="text-decoration-line"><a class="text-success" href="#">Learn
+                                            more
+                                            about payroll →</a></p>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed text-decoration-none bg-white shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Sync hours with payroll
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Gusto automatically calculates and syncs your team’s hours,
+                                        PTO, and holidays with payroll. Plus, we help you stay
+                                        compliant with alerts, software integrations, and more.</p>
+
+                                    <p class="text-decoration-line"><a class="text-success" href="#">See
+                                            all time
+                                            tools</a><a class="text-success" href="#">
+                                            →</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed text-decoration-none bg-white shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    State tax registration in all 50 states
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Have a remote team? Easily register for payroll taxes in all
+                                        50 states. Gusto has everything you need to stay compliant.
+                                    </p>
+
+
+                                    <p class="text-decoration-line"><a class="text-success" href="#">Learn
+                                            more about Gusto global</a><a class="text-success" href="#">
+                                            →</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-link ps-3 mt-5 mb-5">
+                            <a class="wp-block-cgb-bam-button btn px-4 py-2" href="#" target="_self"
+                                rel="noopener noreferrer">Why Gusto</a>
+                        </div>
+                    </div>
+                    <div class="Acoordion media d-none d-lg-block col-lg-6 ">
+                        <img class="d-block mx-auto img-fluid" src="./images/accordion image.png" alt="accordion media"
+                            width="400px" height="800px" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="text-center jumbotron mt-5 pt-5">
+        <div class="container py-5  jumbotron">
+            <div class="row-lg   jumbotron">
+                <div class="col-lg-6 d-block mx-auto jumbotron">
+                    <div class="jumbotron pb-4"><strong class="d-block jumbotron pb-4">Saved over 80 hours a
+                            year</strong>
+                        <q class="jumbotron">Payroll used to take at least one full day per month. We’re able to run
+                            payroll bi-weekly
+                            now, which takes us less than an hour each month.</q>
+                    </div>
+                </div>
+
+                <div class="col-12 jumbotron pb-4">
+                    <div class="d-sm-flex justify-content-center align-items-center jumbotron gap-0">
+                        <div class="jumbotron">
+                            <img class="jumbotron px-4 border border-start-0 mb-2 mb-sm-0"
+                                src="/images/kevinmichaelgray.svg" alt="michael gray" width="300px" height="50px" />
+                        </div>
+                        <div
+                            class="jumbotron px-4 img-text border border-end-0 d-block mx-auto mx-sm-0 col-8 col-sm-4 col-md-3 col-lg-2">
+                            Founder<br>Approveme.com</div>
+
+                    </div>
+                </div>
+                <p class="text-decoration-line jumbotron px-2 pb-sm-3 m-0"><a class="jumbotron" href="#">Read the full
+                        story</a></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container pb-0 py-lg-3 px-3">
+        <div class="col-12 d-block d-lg-flex align-items-center gap-4 py-5">
+            <div class="d-none d-lg-block col-lg-6">
+                <img src="./images/employee benefits pic.jpg" class="d-block mx-lg-auto img-fluid" alt="employee pic"
+                    width="600" height="450" loading="lazy">
+            </div>
+            <div class=" col-12 col-lg-6 benefits">
+                <h1 class=" text-body-emphasis lh-5 mb-4">Make a real difference with affordable
+                    employee benefits.</h1>
+                <p>Supporting your team is more important than ever. With Gusto as your broker, health
+                    insurance administration comes at no extra cost. Move an existing plan or let our licensed advisors
+                    help you find the right coverage.</p>
+                <p class="text-decoration-linepx-2 pb-sm-3 mt-4"><a href="#">Learn more
+                        about benefits</a></p>
+            </div>
+            <div class=" col-12 d-lg-none">
+                <img src="./images/employee benefits pic.jpg" class="d-block mx-auto img-fluid" alt="employee pic"
+                    width="700" height="700" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-lg-3 px-3">
+        <div class="col-12 d-block d-lg-flex align-items-center gap-4 py-5">
+            <div class=" col-12 col-lg-6 benefits">
+                <h1 class=" text-body-emphasis  mb-4">Hire standout candidates and get them up to speed faster than
+                    ever.</h1>
+                <p>Find and support great people from day 1. Use Gusto for job and applicant tracking, create custom
+                    onboarding checklists, and so much more.</p>
+                <p class="text-decoration-line px-2 pb-sm-3 mt-4"><a href="#">Learn
+                        more
+                        about hiring and onboarding</a></p>
+            </div>
+            <div class=" col-12 col-lg-6">
+                <img src="./images/hiring pic.jpg" class="d-block mx-auto img-fluid" alt="about hiring standout pic"
+                    loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div class="container features pt-5 pb-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-10 mb-5">
+                <div class="col-12 d-flex justify-content-center align-items-center px-5 ">
+                    <h1 class="text-center animated animatedFadeInUp fadeInUp">But wait, there’s more.</h1>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap flex-xl-nowrap  mt-3">
+                    <div class="item text-center border pt-5 pb-3 rounded-3" id="watch">
+                        <a class="d-flex justify-content-center align-items-center" href="#"><img
+                                src="./images/time tracking.svg" alt="watch guava" loading="lazy" width="50px"></a>
+                        <div class="text-center"><a href="#"></a>
+                            <p class="text-center fw-bold px-2 px-sm-4 px-md-5 px-xl-4"><a href="#"></a><a href="#"
+                                    class="item-text"> Time <br />
+                                    tracking</a></p>
+                        </div>
+                    </div>
+
+                    <div class="item text-center border pt-5 pb-3 rounded-3" id="star">
+                        <a class="d-flex justify-content-center align-items-center" href="#"><img
+                                src="./images/StarV1_Ginger.svg" alt="star v1 Ginger" loading="lazy" width="50px"></a>
+                        <div class="text-center"><a href="#"></a>
+                            <p class="text-center fw-bold px-2"><a href="#"></a><a href="#" class="item-text">
+                                    Performance
+                                    <br /> management</a></p>
+                        </div>
+                    </div>
+
+                    <div class="item text-center border pt-5 pb-3 rounded-3" id="Chart-Kale">
+                        <a class="d-flex justify-content-center align-items-center" href="#"><img
+                                src="./images/Chart_Kale.svg" alt="Chart_Kale" loading="lazy" width="50px"></a>
+                        <div class="text-center"><a href="#"></a>
+                            <p class="text-center fw-bold px-2"><a href="#"></a><a href="#" class="item-text"> Insights
+                                    and <br /> reporting</a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="item text-center border pt-5 pb-3 rounded-3">
+                        <a class="d-flex justify-content-center align-items-center" href="#"><img
+                                src="./images/AddEmployee_ST1.svg" alt="Add Employee ST1" loading="lazy"
+                                width="50px"></a>
+                        <div class="text-center"><a href="#"></a>
+                            <p class="text-center fw-bold px-2 px-sm-4 px-md-5 px-xl-4"><a href="#"></a><a href="#"
+                                    class="item-text">
+                                    New <br /> Business</a></p>
+                        </div>
+                    </div>
+
+                    <div class="item text-center border pt-5 pb-3 rounded-3" id="Earth">
+                        <a class="d-flex justify-content-center align-items-center" href="#"><img
+                                src="./images/Earth.svg" alt="Earth" loading="lazy" width="50px"></a>
+                        <div class="text-center"><a href="#"></a>
+                            <p class="text-center fw-bold px-2 px-sm-4 px-md-5 px-xl-4"><a href="#"></a><a href="#"
+                                    class="item-text">
+                                    Remote <br /> teams</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="pricing ">
+        <div class="container pricing ">
+            <div class="row justify-content-center align-items-center pricing">
+                <div class=" col-12 col-xl-10 pricing ">
+                    <div class="pricing-header p-4 mx-auto text-center pricing">
+                        <h4
+                            class="display-4 fw-normal text-body-emphasis pricing pt-5 pb-3 animated animatedFadeInUp fadeInUp">
+                            Let’s find the right plan
+                            for your business.</h4>
+                        <p class="pricing card-text pb-4">Choose from a variety of plans and add-ons. You
+                            won’t pay a cent until you’re ready to run payroll.</p>
+
+                        <div class="d-block col-12 col-md-4 col-lg-3 col-xxl-2 mx-auto mt-4 mb-4">
+                            <a class=" col-12 btn btn-light py-3 px-4  text-decoration-none rounded-2 fw-bold text-center"
+                                href="#">Compare
+                                plans</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row mb-5 text-left pricing pb-5 px-lg-5 px-xl-0">
+                        <div class="col-12 col-lg-6 col-xl-4 mt-4 mb-4 pricing">
+                            <div class="card mb-4 rounded-3 shadow-sm p-4 h-100"><a href="#"
+                                    class="text-decoration-none">
+                                    <div class="card-body text-left">
+                                        <span>
+                                            <p class="fw-bold my-3">$40/mo +
+                                                $6/mo per person</p>
+                                        </span>
+                                        <h3 class="my-4 fw-medium">Simple</h3>
+                                        <p class="my-3 card-text">Best for new businesses and startups paying people in
+                                            one state.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-12  col-lg-6 col-xl-4 mt-4 mb-4 pricing">
+                            <div class="card mb-4 rounded-3 shadow-sm px-4 py-4 h-100"><a href="#"
+                                    class="text-decoration-none">
+                                    <div class="card-body text-left">
+                                        <span>
+                                            <p class="fw-bold my-3">
+                                                <s><span style="color:#525257" class="d-inline">$80</span></s> $60/mo
+                                                + <s><span style="color:#525257" class="d-inline">$12</span></s>
+                                                $9/mo per person
+                                            </p>
+                                        </span>
+                                        <h3 class="my-4 fw-medium">Plus</h3>
+                                        <p class="my-3 card-text"> Run payroll in 2 or more states and get built-in time
+                                            tracking and HR tools.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 col-xl-4 mt-4 mb-4 pricing mx-lg-auto">
+                            <div class="card mb-4 rounded-3 shadow-sm px-4 py-4 h-100"><a href="#"
+                                    class="text-decoration-none">
+                                    <div class="card-body text-left">
+                                        <span>
+                                            <p class="fw-bold my-3">
+                                                <s><span style="color:#525257" class="d-inline">$180</span></s> $135/mo
+                                                + <s><span style="color:#525257" class="d-inline">$22</span></s>
+                                                $16.50/mo per person
+                                            </p>
+                                        </span>
+                                        <h3 class="my-4 fw-medium">Premium</h3>
+                                        <p class="my-3 card-text">You’ll get a dedicated success liaison to meet your
+                                            teams’ complex needs.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="payroll py-5">
+        <div class="container payroll">
+            <div class="row payroll">
+                <div class="col-12 payroll px-5">
+                    <div class=" row  justify-content-center align-items-center payroll">
+                        <h3
+                            class="animated animatedFadeInUp fadeInUp pt-4 pb-3 text-center col-12 col-md-8 col-xl-6 mx-auto payroll">
+                            See how Gusto stacks up against other
+                            payroll
+                            providers.</h3>
+                    </div>
+
+                    <div class="d-block col-12 col-md-4 col-lg-3 col-xl-2 mx-auto payroll mt-4 mb-4">
+                        <a class=" col-12 btn btn-light py-3 px-4 text-decoration-none rounded-2  text-center fw-bold"
+                            href="#">Compare
+                            Gusto</a>
+                    </div>
+
+
+                    <div class="row justify-content-center align-items-center border-0 payroll gap-3 mt-5 px-lg-5">
+                        <div class="col-12 col-lg payroll p-4 bor-der">
+                            <div class="d-flex flex-column align-items-center payroll">
+                                <div class="text-center payroll px-2 px-lg-4">
+                                    <div class="heading mb-3">
+                                        <h4 class="text-center payroll">
+                                            Save 5 hours running payroll each month.</h4>
+                                    </div>
+                                    <div class=" payroll">
+                                        <p class=" text-center payroll">on average compared to ADP¹
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-lg payroll p-4 bor-der ">
+                            <div class="d-flex flex-column align-items-center payroll">
+                                <div class="text-center payroll px-2 px-lg-4">
+                                    <div class="heading mb-3">
+                                        <h4 class="text-center payroll">
+                                            “It gives me more time to run my business.”</h4>
+                                    </div>
+                                    <div class=" payroll">
+                                        <p class=" text-center payroll">85% of surveyed Gusto customers¹
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg payroll p-4">
+                            <div class="d-flex flex-column align-items-center payroll">
+                                <div class="text-center payroll px-2 px-lg-4">
+                                    <div class="heading mb-3">
+                                        <h4 class="text-center payroll">
+                                            Switch to Gusto in two weeks or less.</h4>
+                                    </div>
+                                    <div class=" payroll">
+                                        <p class=" text-center payroll">on average, according to customers¹
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="payroll pt-lg-5 pb-3">
+        <div class="container payroll ">
+            <p class="payroll row justify-content-center align-items-center">
+                <span class="payroll text-center">¹Based on an August 2022 Tech Validate survey of 450+ Gusto
+                    customers</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="container p-5 p-md-4 mt-0 mt-md-4 animated animatedFadeInUp fadeInUp">
+        <div class="col-12 d-block d-lg-flex align-items-center gap-5 py-5">
+            <div class="d-block d-sm-none">
+                <img src="./images/automated payroll pic.jpeg" class="d-block mx-lg-auto img-fluid"
+                    alt="easy automated payroll picture" width="750" height="468" loading="lazy">
+            </div>
+            <div class="d-none d-sm-block">
+                <img src="./images/automated payroll pic.jpeg" class="d-block mx-lg-auto img-fluid"
+                    alt="easy automated payroll picture" width="1000px" height="800px" loading="lazy">
+            </div>
+            <div class="automated-payroll ms-lg-5 ps-lg-5 mt-5 mt-lg-0">
+                <strong class="initial">Get started for free</strong>
+                <h1 class="text-body-emphasis lh-5 my-4">You’re three steps away from easy, automated payroll.
+                </h1>
+                <p class="pb-3">
+                    <strong>Create an account.</strong>
+                    <br>
+                    It’s free to sign up. You’ll pick your plan and add your company details.
+                    <br>
+                    <br>
+                    <strong>Add your people.</strong>
+                    <br>
+                    Add your employee details. They can even self-onboard to save you time.
+                    <br>
+                    <br>
+                    <strong>Run your first payroll.</strong>
+                    <br>
+                    Once we have your employee and tax info, you can run payroll in just a few clicks.
+                </p>
+
+                <a class="btn px-4 py-3" href="#">Create account</a>
+            </div>
+        </div>
+    </div>
+
+
+    <section class=" three-item-grid bg-white py-5">
+        <div class="container px-xl-5">
+            <div class="row ">
+                <div class="col-12 px-xl-5">
+                    <div class=" row  justify-content-center align-items-center">
+                        <h3
+                            class="animated animatedFadeInUp fadeInUp pt-4 pb-3 text-center col-12 col-md-8 col-xl-6 mx-auto">
+                            Questions? Meet answers.</h3>
+                    </div>
+
+                    <div class="row justify-content-center align-items-center border-0 mt-5 px-5 three-item-grid ">
+                        <div class="col-12 col-lg p-4 bor-der">
+                            <div class="d-flex flex-column align-items-center">
+                                <div class="text-center px-2 px-lg-4">
+                                    <img src="./images/Binoculars_Ginger.svg" alt="binoculars pic" />
+                                    <div class="heading mb-3">
+                                        <h4 class="text-center">
+                                            Compare Gusto</h4>
+                                    </div>
+                                    <div>
+                                        <p class="text-center">See how Gusto stacks up against other providers.
+                                        </p>
+                                        <p class="text-decoration-line"><a href="#">Compare Gusto</a></p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg p-4 bor-der">
+                            <div class="d-flex flex-column align-items-center">
+                                <div class="text-center px-2 px-lg-4">
+                                    <img src="./images/MagnifyingGlass_Ginger.svg" alt="MagnifyingGlass pic" />
+                                    <div class="heading mb-3">
+                                        <h4 class="text-center">
+                                            Search the help center</h4>
+                                    </div>
+                                    <div>
+                                        <p class="text-center">Get instant answers.
+                                        </p>
+                                        <p class="text-decoration-line"><a href="#">Help
+                                                center</a></p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg p-4">
+                            <div class="d-flex flex-column align-items-center">
+                                <div class="text-center px-2 px-lg-4">
+                                    <img src="./images/Headset_Guava.svg" alt="headset pic" />
+                                    <div class="heading mb-3">
+                                        <h4 class="text-center">
+                                            Give us a ring</h4>
+                                    </div>
+                                    <div>
+                                        <p class="text-center">Monday through Friday from 6AM – 6PM MST.
+                                        </p>
+                                        <p class="text-decoration-line"><a href="#"></a><a
+                                                href="tel:(800) 936-0383">(800) 936-0383</a></p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="mt-md-5">
+
+        <div class="container main-footer">
+            <div class="d-none d-md-block py-4">
+                <div class="row py-5">
+                    <div class="column 1 col">
+                        <div class="tag-1">
+                            <h5><strong>Pricing</strong></h5>
+                            <p>Starting at just $46 per month</p>
+                        </div>
+
+                        <div class="tag-2 mt-5">
+                            <h5><strong>Built for you</strong></h5>
+                            <p class="mb-1">starting a business</p>
+                            <p class="mb-1">Switching to Gusto</p>
+                            <p class="mb-1">Remote and Global</p>
+                            <p class="mb-1">Why Gusto</p>
+                        </div>
+
+                        <div class="tag-3 mt-5">
+                            <h5><strong>For Accountants</strong></h5>
+                            <p class="mb-1">Become a Partner</p>
+                            <p class="mb-1">Gusto Pro Dashboard</p>
+                            <p class="mb-1">Partner Community</p>
+                            <p class="mb-1">Professional development</p>
+                            <p class="mb-1">People Advisory</p>
+                            <p class="mb-1">Accountant blog</p>
+                            <p class="mb-1">Resources</p>
+                        </div>
+
+                        <div class="tag-4 mt-5">
+                            <h5><strong>For Developers</strong></h5>
+                            <p class="mb-1"> Gusto Embedded Payroll</p>
+                            <p class="mb-1">Build app with Gusto</p>
+                            <p class="mb-1">Developer tools</p>
+                        </div>
+                    </div>
+
+                    <div class="column 2 col">
+                        <div class="tag-1">
+                            <h5><strong>Get started</strong></h5>
+                            <p class="mb-1">Interactive Demo</p>
+                            <p>Contact sales - <strong class="green">(800) 936-0383</strong></p>
+                        </div>
+
+                        <div class="tag-2 mt-5">
+                            <h5><strong>Services</strong></h5>
+                            <p class="mb-1">People platform</p>
+                            <p class="mb-1"> Full-service payroll</p>
+                            <p class="mb-1">Employee benefits</p>
+                            <p class="mb-1">HR</p>
+                            <p class="mb-1">Health Benefits</p>
+                            <p class="mb-1">Financial Benefits</p>
+                            <p class="mb-1">R&D tax credits</p>
+                            <p class="mb-1">Time and Attendance</p>
+                            <p class="mb-1">Hiring and onboarding</p>
+                            <p class="mb-1 ">Talent management</p>
+                            <p class="mb-1">Insights and reporting</p>
+                            <p class="mb-1">Workers' compensation</p>
+                            <p class="mb-1">Gusto Wallet</p>
+                        </div>
+                    </div>
+
+                    <div class="column 3 col">
+                        <div class="tag-1">
+                            <h5><strong>Company</strong></h5>
+                            <p class="mb-1">About</p>
+                            <p class="mb-1">Careers - <strong class="green">We're hiring!</strong></p>
+                            <p class="mb-1">Awards</p>
+                            <p class="mb-1">Press</p>
+                            <p class="mb-1">News</p>
+                            <p class="mb-1">Investors</p>
+                            <p class="mb-1">Contacts</p>
+                            <p class="mb-1">Affiliates program</p>
+                        </div>
+
+                        <div class="tag-2 mt-5">
+                            <h5><strong>Licenses</strong></h5>
+                            <p class="mb-1">Gusto Capital, LLC NMLS ID:
+                                <strong class="green">1845463</strong>
+                            </p>
+                            <p class="mb-1">Gusto, Inc. NMLS ID <strong class="green">1737896</strong></p>
+                        </div>
+
+                        <div class="tag-3 mt-5">
+                            <h5><strong>Support</strong></h5>
+                            <p class="mb-1">Help Center</p>
+                            <P class="mb-1">Talk to Support-<strong class="green">sign in</strong></P>
+                        </div>
+                    </div>
+
+                    <div class="column 4 col">
+                        <div class="tag-1">
+                            <h5><strong>Resources</strong></h5>
+                            <p class="mb-1">Customer stories</p>
+                            <p class="mb-1">Customer reviews</p>
+                            <p class="mb-1">Compare</p>
+                            <p class="mb-1">Partner Directory</p>
+                            <p class="mb-1">Business Guides</p>
+                            <p class="mb-1">FAQs</p>
+                            <p class="mb-1"> Security</p>
+                            <p class="mb-1">Intregrations</p>
+                        </div>
+
+                        <div class="tag-2 mt-5">
+                            <h5><strong>Tools</strong></h5>
+                            <p class="mb-1">Employer tax calculator</p>
+                            <p class="mb-1">Burn rate calculator</p>
+                            <p class="mb-1">New hire checklist</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="sub-footer">
+                    <div class="row">
+                        <div class="bottam-tag col-xxl-3 col-xl-4 col-lg-4 col-md-5">
+                            <h5 class="d-inline"><strong>Talk Shop:</strong></h5>
+                            <p class="d-inline px-1">Business Resources</p>
+                        </div>
+                        <div class="bottam-tag col-xxl-9 col-xl-8 col-lg-8 col-md-7 px-5">
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-3 blog">
+                    <div class="col-3">
+                        <div class="col-12">
+                            <strong>Talk Shop Blog</strong>
+                            <p class="pe-5 pt-1"> Advice and information for growing businesses and their teams</p>
+                        </div>
+                    </div>
+
+                    <div class="col-9 blog-menu">
+                        <div class="row">
+                            <div class="col-4">
+                                <p>Running payroll</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Workers' camp</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Hiring</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Employee benefits</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Startiing a business</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Growth</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Health insurance</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Business finances</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Taxes</p>
+                            </div>
+                            <div class="col-4">
+                                <p>People management</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row py-5 deskstop-display">
+                    <div class="col-md-8 d-inline-flex justify-content-start  gap-3 flex-wrap">
+                        <p class="m-0 p-0"> Gusto © 2025</p>
+                        <a href="#">Brokers</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Your Privacy Choices
+                            <img src="./images/your-privacy-choices- svg.svg" width="36px" height="16px" /> </a>
+                        <a href="#" id="footer-legal-links-footer_item_desktop-accessibility">
+                            Accessibility</a>
+                        <a href="#" id="footer-legal-links-footer_item_desktop-terms"> Terms</a>
+                        <a href="#" id="footer-legal-links-footer_item_desktop-licenses"> Licenses</a>
+                        <a href="#" id="footer-legal-links-footer_item_desktop-site_map">Site map</a>
+                    </div>
+                    <div class="col-xl-3 col-md-4">
+                        <ul class="d-flex list-unstyled justify-content-end">
+
+                            <li class="pe-4">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-449 382.8 300 244.2" width="20px">
+                                        <path
+                                            d="M-247.5 396.8c0 .7-.1 1.4-.1 2.1v33.7c0 1.6-.5 2-2 1.9-6.1-.1-12.2-.1-18.4.1-2.1 0-4.2.4-6.2.7-3.9.7-6.7 3.9-6.8 8.2-.3 7.9-.3 15.8-.4 23.8 0 1.4.9 1.2 1.8 1.2h32.2c-1.3 12.7-2.7 25.1-4 37.7h-29.9v107.7c0 .6 0 1.3-.1 1.9h-40.9V506.4h-27.3c0-.8-.1-1.3-.1-1.9v-33.9c0-1.6.5-2 2-1.9 7.8.1 15.6 0 23.4.1 1.7 0 2-.5 2-2.1 0-10.1 0-20.3.4-30.4.3-7.4 1.8-14.6 5.2-21.2 3.8-7.3 9.6-12.3 17.3-14.8 4.3-1.4 8.8-2 13.3-2.9.6-.1 1.2-.3 1.9-.4 12.2-.2 24.4-.2 36.7-.2z" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="pe-4">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15px" viewBox="0 0 1200 1227">
+                                        <path
+                                            d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="pe-4">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-449 382.8 300 244.2" width="20px">
+                                        <path
+                                            d="M-190.2 528.4v80.4h-46.6v-75c0-18.8-6.7-31.7-23.6-31.7-12.9 0-20.5 8.7-23.9 17.1-1.2 3-1.5 7.2-1.5 11.4v78.3h-46.6s.6-127.1 0-140.2h46.6v19.9c-.1.1-.2.3-.3.5h.3v-.5c6.2-9.5 17.3-23.2 42-23.2 30.6-.1 53.6 19.9 53.6 63zm-191.1-127.5c-16 0-26.4 10.5-26.4 24.2 0 13.5 10.1 24.2 25.8 24.2h.3c16.3 0 26.4-10.8 26.4-24.2-.3-13.7-10.2-24.2-26.1-24.2zm-23.6 207.9h46.6V468.6h-46.6z" />
+                                    </svg>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.4 52.4" width="15px">
+                                        <path
+                                            d="M26.2 0c3.2 0 6.3.1 9.4.1 2.1 0 4.1.2 6.1.8 4.9 1.4 8.1 4.5 9.6 9.3.5 1.7.8 3.5.8 5.3.2 6.2.2 12.4.1 18.6 0 1.8-.1 3.7-.4 5.5-.5 3.5-1.9 6.6-4.7 9-1.6 1.4-3.5 2.4-5.6 2.9-1.7.4-3.4.6-5.1.7-6.1.2-12.2.2-18.3.1-1.8 0-3.7-.1-5.5-.4-3-.5-5.8-1.6-8-3.7S1.1 43.6.5 40.7C.1 39 0 37.3 0 35.5c0-5.7 0-11.5.1-17.4 0-1.7.1-3.4.3-5 .4-3.7 1.9-7 4.9-9.5 1.8-1.6 4-2.5 6.3-3C13.3.2 15 .1 16.7.1 19.9.1 23 0 26.2 0zm0 47.6s0 .1 0 0c3.2 0 6.4 0 9.6-.1 1.5 0 2.9-.1 4.4-.5 1.8-.4 3.4-1.2 4.7-2.6 1.4-1.5 2.1-3.2 2.5-5.2.3-1.5.3-3.1.3-4.7.1-6.1.1-12.1 0-18.2 0-1.4-.1-2.8-.5-4.2-.5-2.2-1.5-4-3.3-5.3-1.3-1-2.8-1.5-4.4-1.8-1.5-.3-3-.3-4.6-.3-6.1-.1-12.1-.1-18.2 0-1.4 0-2.8.1-4.2.5-2.1.5-4 1.5-5.3 3.3-1 1.3-1.5 2.8-1.8 4.5-.3 1.5-.3 3.1-.3 4.6-.1 6.1-.1 12.1 0 18.2 0 1.4.1 2.8.5 4.2.5 2.2 1.6 4 3.4 5.4 1.3 1 2.8 1.5 4.4 1.8s3.3.3 5 .4z" />
+                                        <path
+                                            d="M12.7 26.2c0-7.5 6-13.4 13.6-13.4 7.3 0 13.3 6.1 13.3 13.5 0 7.5-6.1 13.5-13.6 13.4-7.2-.1-13.2-6-13.3-13.5zm13.5 8.7c4.8 0 8.7-3.9 8.7-8.7s-3.9-8.7-8.7-8.7-8.7 3.9-8.7 8.7 3.9 8.7 8.7 8.7zm14-19.5c-1.7 0-3.1-1.4-3.1-3.1s1.4-3.1 3.1-3.1 3.2 1.4 3.2 3.1c-.1 1.7-1.5 3.1-3.2 3.1z" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="d-md-none mb-5 pb-5 mob-acc p-3">
+                <div class="accordion px-0" id="accordion2">
+                    <div class="accordion-item">
+                        <div class="one-div pb-4">
+                            <h5> <strong class="px-0">Pricing</strong></h5>
+                            <p class="px-0">Starting at just $46 per month</p>
+                        </div>
+                        <h2 class="accordion-header">
+                            <button class="accordion-button text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <strong>Built for you</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 my-0 py-0">
+                                <p class="mb-1">Switching to Gusto</p>
+                                <p class="mb-1">Remote and Global</p>
+                                <p class="mb-1">starting a business</p>
+                                <p class="mb-1">Why Gusto</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                <strong>For Accountants</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 my-0 py-0">
+                                <p class="mb-1">Become a Partner</p>
+                                <p class="mb-1">Gusto Pro Dashboard</p>
+                                <p class="mb-1">Partner Community</p>
+                                <p class="mb-1">Professional development</p>
+                                <p class="mb-1">People Advisory</p>
+                                <p class="mb-1">Accountant blog</p>
+                                <p class="mb-1">Resources</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                <strong>For Developers</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 py-0 my-0">
+                                <p class="mb-1"> Gusto Embedded Payroll</p>
+                                <p class="mb-1">Build app with Gusto</p>
+                                <p class="mb-1">Developer tools</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour"
+                                aria-expanded="false" aria-controls="collapsefour">
+                                <strong>Get started</strong>
+                            </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 py-0 my-0">
+                                <p class="mb-1">Interactive Demo</p>
+                                <p>Contact sales - <strong class="green">(800) 936-0383</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive"
+                                aria-expanded="false" aria-controls="collapsefive">
+                                <strong>Services</strong>
+                            </button>
+                        </h2>
+                        <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 py-0 my-0">
+                                <p class="mb-1">People platform</p>
+                                <p class="mb-1"> Full-service payroll</p>
+                                <p class="mb-1">Employee benefits</p>
+                                <p class="mb-1">HR</p>
+                                <p class="mb-1">Health Benefits</p>
+                                <p class="mb-1">Financial Benefits</p>
+                                <p class="mb-1">R&amp;D tax credits</p>
+                                <p class="mb-1">Time and Attendance</p>
+                                <p class="mb-1">Hiring and onboarding</p>
+                                <p class="mb-1">Talent management</p>
+                                <p class="mb-1">Insights and reporting</p>
+                                <p class="mb-1">Workers' compensation</p>
+                                <p class="mb-1">Gusto Wallet</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix"
+                                aria-expanded="false" aria-controls="collapsesix">
+                                <strong>Company</strong>
+                            </button>
+                        </h2>
+                        <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 py-0 my-0">
+                                <p class="mb-1">About</p>
+                                <p class="mb-1">Careers - <strong class="green">We're hiring!</strong></p>
+                                <p class="mb-1">Awards</p>
+                                <p class="mb-1">Press</p>
+                                <p class="mb-1">News</p>
+                                <p class="mb-1">Investors</p>
+                                <p class="mb-1">Contacts</p>
+                                <p class="mb-1">Affiliates program</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven"
+                                aria-expanded="false" aria-controls="collapseseven">
+                                <strong>Licenses</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 my-0 py-0">
+                                <p class="mb-1">Gusto Capital, LLC NMLS ID:
+                                    <strong class="green">1845463</strong>
+                                </p>
+                                <p class="mb-1">Gusto, Inc. NMLS ID <strong class="green">1737896</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight"
+                                aria-expanded="false" aria-controls="collapseeight">
+                                <strong>Support</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 py-0 my-0">
+                                <p class="mb-1">Help Center</p>
+                                <p class="mb-1">Talk to Support-<strong class="green">sign in</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine"
+                                aria-expanded="false" aria-controls="collapsenine">
+                                <strong>Resources</strong>
+                            </button>
+                        </h2>
+                        <div id="collapsenine" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 py-0 my-0">
+                                <p class="mb-1">Customer stories</p>
+                                <p class="mb-1">Customer reviews</p>
+                                <p class="mb-1">Compare</p>
+                                <p class="mb-1">Partner Directory</p>
+                                <p class="mb-1">Business Guides</p>
+                                <p class="mb-1">FAQs</p>
+                                <p class="mb-1"> Security</p>
+                                <p class="mb-1">Intregrations</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseten"
+                                aria-expanded="false" aria-controls="collapseten">
+                                <strong>Tools</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseten" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 py-0 my-0">
+                                <p class="mb-1">Employer tax calculator</p>
+                                <p class="mb-1">Burn rate calculator</p>
+                                <p class="mb-1">New hire checklist</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-decoration-none bg-white shadow-none px-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseeleven"
+                                aria-expanded="false" aria-controls="collapseeleven">
+                                <strong>Talk Shop: Business resources</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseeleven" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                            <div class="accordion-body px-0 py-0 my-0">
+                                <p>Talk Shop Blog</p>
+                                <p>Running payroll</p>
+                                <p>Workers' camp</p>
+                                <p>Hiring</p>
+                                <p>Employee benefits</p>
+                                <p>Startiing a business</p>
+                                <p>Growth</p>
+                                <p>Health insurance</p>
+                                <p>Business finances</p>
+                                <p>Taxes</p>
+                                <p>People management</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class="row justify-content-center pt-2">
+                    <div class="col-6 mobile-footer">
+                        <p> Gusto © 2025</p>
+                    </div>
+                    <div class="col-6 ">
+                        <ul class="d-flex list-unstyled justify-content-end deskstop-display">
+
+                            <li class="pe-4">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-449 382.8 300 244.2" width="20px">
+                                        <path
+                                            d="M-247.5 396.8c0 .7-.1 1.4-.1 2.1v33.7c0 1.6-.5 2-2 1.9-6.1-.1-12.2-.1-18.4.1-2.1 0-4.2.4-6.2.7-3.9.7-6.7 3.9-6.8 8.2-.3 7.9-.3 15.8-.4 23.8 0 1.4.9 1.2 1.8 1.2h32.2c-1.3 12.7-2.7 25.1-4 37.7h-29.9v107.7c0 .6 0 1.3-.1 1.9h-40.9V506.4h-27.3c0-.8-.1-1.3-.1-1.9v-33.9c0-1.6.5-2 2-1.9 7.8.1 15.6 0 23.4.1 1.7 0 2-.5 2-2.1 0-10.1 0-20.3.4-30.4.3-7.4 1.8-14.6 5.2-21.2 3.8-7.3 9.6-12.3 17.3-14.8 4.3-1.4 8.8-2 13.3-2.9.6-.1 1.2-.3 1.9-.4 12.2-.2 24.4-.2 36.7-.2z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="pe-4">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15px" viewBox="0 0 1200 1227">
+                                        <path
+                                            d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="pe-4">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-449 382.8 300 244.2" width="20px">
+                                        <path
+                                            d="M-190.2 528.4v80.4h-46.6v-75c0-18.8-6.7-31.7-23.6-31.7-12.9 0-20.5 8.7-23.9 17.1-1.2 3-1.5 7.2-1.5 11.4v78.3h-46.6s.6-127.1 0-140.2h46.6v19.9c-.1.1-.2.3-.3.5h.3v-.5c6.2-9.5 17.3-23.2 42-23.2 30.6-.1 53.6 19.9 53.6 63zm-191.1-127.5c-16 0-26.4 10.5-26.4 24.2 0 13.5 10.1 24.2 25.8 24.2h.3c16.3 0 26.4-10.8 26.4-24.2-.3-13.7-10.2-24.2-26.1-24.2zm-23.6 207.9h46.6V468.6h-46.6z">
+                                        </path>
+                                    </svg>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.4 52.4" width="15px">
+                                        <path
+                                            d="M26.2 0c3.2 0 6.3.1 9.4.1 2.1 0 4.1.2 6.1.8 4.9 1.4 8.1 4.5 9.6 9.3.5 1.7.8 3.5.8 5.3.2 6.2.2 12.4.1 18.6 0 1.8-.1 3.7-.4 5.5-.5 3.5-1.9 6.6-4.7 9-1.6 1.4-3.5 2.4-5.6 2.9-1.7.4-3.4.6-5.1.7-6.1.2-12.2.2-18.3.1-1.8 0-3.7-.1-5.5-.4-3-.5-5.8-1.6-8-3.7S1.1 43.6.5 40.7C.1 39 0 37.3 0 35.5c0-5.7 0-11.5.1-17.4 0-1.7.1-3.4.3-5 .4-3.7 1.9-7 4.9-9.5 1.8-1.6 4-2.5 6.3-3C13.3.2 15 .1 16.7.1 19.9.1 23 0 26.2 0zm0 47.6s0 .1 0 0c3.2 0 6.4 0 9.6-.1 1.5 0 2.9-.1 4.4-.5 1.8-.4 3.4-1.2 4.7-2.6 1.4-1.5 2.1-3.2 2.5-5.2.3-1.5.3-3.1.3-4.7.1-6.1.1-12.1 0-18.2 0-1.4-.1-2.8-.5-4.2-.5-2.2-1.5-4-3.3-5.3-1.3-1-2.8-1.5-4.4-1.8-1.5-.3-3-.3-4.6-.3-6.1-.1-12.1-.1-18.2 0-1.4 0-2.8.1-4.2.5-2.1.5-4 1.5-5.3 3.3-1 1.3-1.5 2.8-1.8 4.5-.3 1.5-.3 3.1-.3 4.6-.1 6.1-.1 12.1 0 18.2 0 1.4.1 2.8.5 4.2.5 2.2 1.6 4 3.4 5.4 1.3 1 2.8 1.5 4.4 1.8s3.3.3 5 .4z">
+                                        </path>
+                                        <path
+                                            d="M12.7 26.2c0-7.5 6-13.4 13.6-13.4 7.3 0 13.3 6.1 13.3 13.5 0 7.5-6.1 13.5-13.6 13.4-7.2-.1-13.2-6-13.3-13.5zm13.5 8.7c4.8 0 8.7-3.9 8.7-8.7s-3.9-8.7-8.7-8.7-8.7 3.9-8.7 8.7 3.9 8.7 8.7 8.7zm14-19.5c-1.7 0-3.1-1.4-3.1-3.1s1.4-3.1 3.1-3.1 3.2 1.4 3.2 3.1c-.1 1.7-1.5 3.1-3.2 3.1z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-footer pt-3">
+                    <div class="row">
+                        <a class="col-6 text-decoration-none pb-3 pb-sm-2" href="#">Brokers</a>
+                        <a class="col-6 text-decoration-none pb-3 pb-sm-2" href="#">Privacy</a>
+                        <a class="col-6 text-decoration-none pb-3 pb-sm-2" href="#">Your Privacy Choices
+                            <img src="./images/your-privacy-choices- svg.svg" width="36px" height="16px"> </a>
+                        <a class="col-6  text-decoration-none pb-3 pb-sm-2" href="#">
+                            Accessibility</a>
+                        <a class="col-6 text-decoration-none pb-3 pb-sm-2" href="#"> Terms</a>
+                        <a class="col-6  text-decoration-none pb-3 pb-sm-2" href="#"> Licenses</a>
+                        <a class="col-6 text-decoration-none pb-3 pb-sm-2" href="#">Site map</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
