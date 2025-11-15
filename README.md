@@ -18,5 +18,5 @@ A fully responsive, modern HR &amp; Payroll business landing page interface buil
 • Font Awesome Icons  
 • Responsive Design Techniques
 
-🌐 Live Demo
-gusto-me.netlify.app
+🌐 Live Demo:
+https://gusto-me.netlify.app/
