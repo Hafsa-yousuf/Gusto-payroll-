@@ -1,8 +1,8 @@
 # Gusto-payroll-
-A fully responsive, modern HR &amp; Payroll business landing page interface built using HTML, CSS, and Bootstrap. Includes multi-section layout, fixed navigation with dropdowns, advanced responsive media design, feature accordions, brand review slider styling, and professional UI elements — ideal for showcasing front-end development skills.
+A fully responsive and modern HR & Payroll business landing page built using HTML, CSS, and Bootstrap. This project is a front-end implementation of a multi-section corporate layout, featuring a fixed navigation bar with dropdowns, advanced responsive media design, feature accordions, and styled brand review sliders. Ideal for showcasing HTML/CSS/Bootstrap skills and responsive layout building.
 
 ## 🚀 Features
-✅ Fully responsive layout (mobile-first approach)  
+✅ Fully responsive layout. 
 ✅ Modern navigation bar with dropdown menus  
 ✅ Off-canvas mobile sidebar menu  
 ✅ Hero section with call-to-action buttons  
