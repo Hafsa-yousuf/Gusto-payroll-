@@ -3,7 +3,6 @@ A fully responsive and modern HR & Payroll business landing page built using HTM
 
 ## 🚀 Features
 ✅ Fully responsive layout
-
 ✅ Modern navigation bar with dropdown menus  
 ✅ Off-canvas mobile sidebar menu  
 ✅ Hero section with call-to-action buttons  
